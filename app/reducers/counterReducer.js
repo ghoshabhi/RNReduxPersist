@@ -2,7 +2,7 @@ export const initialState = {
   count: 0,
 };
 
-export const blacklist = [];
+export const blacklist = ['count'];
 
 export default function counterReducer(state = initialState, action) {
   const {type, payload} = action;
