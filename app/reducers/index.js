@@ -1,15 +1,15 @@
 import counter, {blacklist as counterBlacklist} from './counterReducer';
-import test, {blacklist as testBlacklist} from './testReducer';
+import buggy, {blacklist as buggyBlacklist} from './buggyReducer';
 
 // register all reducers here. Injected into store at ./store.js
 export default {
   counter,
-  test,
+  buggy,
 };
 
-export const persistReducers = ['counter', 'test'];
+export const persistReducers = ['counter', 'buggy'];
 
 export const blacklists = {
   counter: counterBlacklist,
-  test: testBlacklist,
+  buggy: buggyBlacklist,
 };

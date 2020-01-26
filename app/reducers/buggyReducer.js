@@ -15,13 +15,10 @@ export default function testReducer(state = initialState, action) {
     case 'SET_DATA_COMMIT':
       return {...state, loading: false, data: payload.data};
     case 'UPDATE_DATA_COMMIT': {
-      const newState = { ...state, loading: false };
-      const updatedData = { ...newState.data };
-      
-      delete updatedData.foo;
-      // workaround: is to set the updated state again.
-      // uncomment the next line to see the fix.
-      // newState.data = { ...updatedData };
+      const newState = { ...state };
+      newState.loading = false;
+      delete newState.data.foo;
+
       return newState;
     }
     case 'RESET_DATA_COMMIT': {

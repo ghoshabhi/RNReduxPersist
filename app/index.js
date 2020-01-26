@@ -34,8 +34,7 @@ const App = () => {
           <ScrollView
             contentInsetAdjustmentBehavior="automatic"
             style={styles.scrollView}
-            contentContainerStyle={{height: '100%'}}
-          >
+            contentContainerStyle={{height: '100%'}}>
             <Home />
           </ScrollView>
         </SafeAreaView>

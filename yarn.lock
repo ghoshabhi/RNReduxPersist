@@ -5814,14 +5814,6 @@ rn-fetch-blob@^0.10.16:
     base-64 "0.1.0"
     glob "7.0.6"
 
-rn-fetch-blob@^0.12.0:
-  version "0.12.0"
-  resolved "https://artifactory.teslamotors.com/artifactory/api/npm/digital-products-node/rn-fetch-blob/-/rn-fetch-blob-0.12.0.tgz#ec610d2f9b3f1065556b58ab9c106eeb256f3cba"
-  integrity sha1-7GENL5s/EGVVa1irnBBu6yVvPLo=
-  dependencies:
-    base-64 "0.1.0"
-    glob "7.0.6"
-
 rsvp@^4.8.4:
   version "4.8.5"
   resolved "https://artifactory.teslamotors.com/artifactory/api/npm/digital-products-node/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
